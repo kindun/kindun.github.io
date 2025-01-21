@@ -1,6 +1,12 @@
 body {
-  width: 700px;
+  /*width: 1000px;*/
   height: 1000px;
+  border: 2px solid blue;
+}
+
+.display {
+  display: grid;
+  grid-template-columns: 690px 310px;
 }
 
 .matrix{
@@ -31,4 +37,21 @@ body {
   width: 30px;
   color: white;
   margin-left: 10px;
+}
+
+.input {
+  display: grid;
+  border: 2px solid red;
+  margin-left:50px;
+  grid-template-rows: 60px 120px 120px 120px 120px;
+}
+
+.tag { 
+  border: 2px ridge black;
+  margin: 5px;
+}
+
+h2 {
+  border: 2px solid black;
+  height:30px;
 }
