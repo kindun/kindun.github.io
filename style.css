@@ -24,6 +24,12 @@ body {
   margin:10px;
 }
 
+.square .tag {
+  height:30px;
+  background-color: yellow;
+  border: 1px solid red;
+}
+
 .arrow {
   grid-column: 1/6;
   background: black;
@@ -49,9 +55,16 @@ body {
 .tag { 
   border: 2px ridge black;
   margin: 5px;
+  cursor: grab;
 }
 
 h2 {
   border: 2px solid black;
   height:30px;
 }
+
+.tag.drag{
+  opacity: 0.5;
+}
+
+
