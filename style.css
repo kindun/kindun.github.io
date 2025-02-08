@@ -28,6 +28,7 @@ body {
   height:30px;
   background-color: yellow;
   border: 1px solid red;
+  width:max-content;
 }
 
 .arrow {
@@ -63,8 +64,6 @@ h2 {
   height:30px;
 }
 
-.tag.drag{
-  opacity: 0.5;
+.delete {
+  display: none;
 }
-
-
